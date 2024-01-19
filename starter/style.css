@@ -168,6 +168,20 @@ a {
   transition: all 250ms ease;
 }
 
+.level-loser {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 6rem;
+  background-color: #111;
+  text-align: center;
+  z-index: 9;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 250ms ease;
+}
+
 .game-over {
   opacity: 1;
   pointer-events: all;
